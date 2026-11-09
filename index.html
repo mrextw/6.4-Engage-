@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Text Art - Computer Quote</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" width="900" height="780">
+            <defs>
+                <path id="path-top" d="M 220,180 L 680,180" />
+                <path id="path-right" d="M 680,180 L 680,480" />
+                <path id="path-bottom" d="M 680,480 L 220,480" />
+                <path id="path-left" d="M 220,480 L 220,180" />
+
+                <path id="path-stand-left" d="M 410,485 L 370,610" />
+                <path id="path-stand-right" d="M 490,485 L 530,610" />
+                <path id="path-base" d="M 300,630 L 600,630" />
+            </defs>
+
+            <rect x="235" y="195" width="430" height="270" rx="4" fill="#0984e3" opacity="0.03" />
+
+            <text x="250" y="225" class="code-accent">&lt;html&gt; &lt;body&gt;</text>
+            <text x="250" y="445" class="code-accent">&lt;/body&gt; &lt;/html&gt;</text>
+
+            <text x="450" y="315" class="screen-quote" text-anchor="middle">"CODING IS THE ART OF</text>
+            <text x="450" y="345" class="screen-quote" text-anchor="middle">TELLING A COMPUTER</text>
+            <text x="450" y="375" class="screen-quote" text-anchor="middle">WHAT TO DO."</text>
+            
+            <text x="450" y="415" class="screen-author" text-anchor="middle">— COMPUTER SCIENCE PROVERB —</text>
+
+            <circle cx="450" cy="498" r="3" fill="#00b894" />
+
+            <text class="frame-text">
+                <textPath href="#path-top" startOffset="50%" text-anchor="middle">
+                    01000011 01001111 01001101 01010000 01010101 01010100 01000101 01010010
+                </textPath>
+            </text>
+
+            <text class="frame-text">
+                <textPath href="#path-right" startOffset="50%" text-anchor="middle">
+                    HARDWARE • SOFTWARE • DATA • INPUT • OUTPUT
+                </textPath>
+            </text>
+
+            <text class="frame-text">
+                <textPath href="#path-bottom" startOffset="50%" text-anchor="middle">
+                    01010011 01011001 01010011 01010100 01000101 01001101
+                </textPath>
+            </text>
+
+            <text class="frame-text">
+                <textPath href="#path-left" startOffset="50%" text-anchor="middle">
+                    MONITOR • DISPLAY • SCREEN • PIXELS • LOGIC
+                </textPath>
+            </text>
+
+            <text class="stand-text">
+                <textPath href="#path-stand-left" startOffset="50%" text-anchor="middle">
+                    STAND LEFT
+                </textPath>
+            </text>
+
+            <text class="stand-text">
+                <textPath href="#path-stand-right" startOffset="50%" text-anchor="middle">
+                    STAND RIGHT
+                </textPath>
+            </text>
+
+            <text class="stand-text">
+                <textPath href="#path-base" startOffset="50%" text-anchor="middle">
+                    
+                </textPath>
+            </text>
+        </svg>
+    </div>
+
+</body>
+</html>
